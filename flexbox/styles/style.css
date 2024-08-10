@@ -1,0 +1,132 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1%;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+nav li{
+    background: rgb(230, 230, 230);
+    margin: .2%;
+    flex: 0 1 10em;
+    font-size: 1.3rem;     
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+nav li a:active{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#works > ul{
+    list-style-type: none;
+    background: rgb(200, 200, 200);
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+*/
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+nav {
+    background-color: grey;
+    width: 10%;
+}
+
+main {
+    background-color: lightgrey;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#person {
+    width: 100%;
+    margin: 1em;
+}
+
+#about {
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+}
+
+#works {
+    margin: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#works ul {
+    list-style-type: none;
+}
+
+nav > ul {
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+nav li a:active{
+    text-decoration: none;
+    color: rgb(63, 211, 211);
+}

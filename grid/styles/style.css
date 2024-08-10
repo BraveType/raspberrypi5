@@ -1,0 +1,55 @@
+article,
+footer,
+li {
+    background: hsl(0, 30%, 56%);
+}
+/*
+nav > ul {
+    display: grid;
+    grid-template-columns: 10% 20% 30% 20% 10em;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: repeat(4,1fr) 20em;
+}
+*/
+nav > ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20em, 1fr));
+    gap: 1%;
+ }
+
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h2::first-letter{
+    color: red;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "head head"
+    "cont1 cont2"
+    "foot foot"
+    ;
+    gap: 1%;
+}
+
+#grid{
+    grid-area: head;
+}
+
+#gridPropsItem{
+    grid-area: cont;
+}
+
+footer{
+    grid-area: foot;
+}
+

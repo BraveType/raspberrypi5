@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Leonhard Katschner</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio Leonhard Katschner</h1>
+    </header>
+   
+    <nav>
+        <ul>
+            <li><a href="#person">Person</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#table1">Table</a></li>
+            <li><a href="#form1">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+ 
+        
+            <img id="person" src="pics/me.jpg" alt="Picture of the author Leonhard Katschner">
+
+            
+
+        <article id="about">
+            <h2>About</h2>
+            <p>
+                Hi i am leonhard Katschner and I run Brave Type.
+            </p>
+            <p>    
+                I have an education as digital media designer and I am a freelance type designer.
+                I make my fonts with a lot of passion and I try to give every typeface its own voice & character
+                and put my own style in it.
+            </p>
+            <p>
+                Brave is the key word here as I am producing fonts that want to be brave and look different
+                than what exists already.
+            </p>
+            <p>
+                I was born in berlin and I still live in Berlin since 1988. It is a fabulous city and I can recommend
+                it to everyone. Here I live in a cosy flat with my dear wife and my amazing daughter.
+            </p>
+            <p>    
+                In my freetime I like to visualize my fonts with Blender, Photoshop and Animate.
+                Also I walk around Berlin with my little family, discovering new sites, lakes & playing grounds.
+            </p>
+        </article>
+
+        <section id="works">
+            <h2>works</h2>
+            <ul>
+                <li><img src="pics/Mash.png" alt="Showcase picture of the font Mash"></li>
+                <li><img src="pics/Knive.png" alt="Showcase picture of the font Knive"></li>
+                <li><img src="pics/Hybridea.png" alt="Showcase picture of the font Hybridea"></li>
+            </ul>
+        </section>
+
+        <section id="table1">
+            <h2>table</h2>
+            <table>
+                <caption>Font Feelings</caption>
+                <thead>
+                <tr>
+                <th> 
+                <th> Sans Serifs
+                <th> Serifs
+                <tbody>
+                <tr>
+                <th> look
+                <td> modern
+                <td> classic
+                <tr>
+                <th> feel
+                <td> cool
+                <td> strong
+            </table>
+        </section>
+
+        <section id="form1">
+            <h2>Formular</h2>
+            <form method="get" action="#">
+                <fieldset>
+                    <legend>Your Type Choices</legend>
+                    <label for="serifType">Serifs?</label>
+                    <input id="serifType" type="checkbox" required>
+                    <label for="feeling">What should the writer feel?</label>
+                    <input id="feeling" type="text">
+                </fieldset>
+                <fieldset>
+                    <legend>Which language?</legend>
+                    <label for="charset1">Latin</label>
+                    <input id="charset1" type="radio">
+                    <label for="charset2">Greek</label>
+                    <input id="charset2" type="radio">
+                    <label for="charset3">Cyrillic</label>
+                    <input id="charset3" type="radio">
+                </fieldset>
+                <fieldset>
+                    <legend>Glyphset Of Choice</legend>
+                    <label for="glyphset">Select Glyphset</label>
+                    <select id="glyphset">
+                        <option value="GS1" selected>Glyphset1</option>
+                        <option value="GS2">Glyphset2</option>
+                        <option value="GS3">Glyphset3</option>
+                        <option value="GS4">Glyphset4</option>
+                        <option value="GS5">Glyphset5</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Digits</legend>
+                    <label for="numbers">Choose Numbers Style</label>
+                    <input list="numbers-style" id="numbers">
+                    <datalist id="numbers-style">
+                        <option value="tabular"></option>
+                        <option value="classic"></option>
+                        <option value="superscript"></option>
+                        <option value="subscript"></option>
+                        <option value="medieval"></option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional wishes?</legend>
+                    <label for="wishes">Type here</label>
+                    <textarea id="wishes">What is missing?</textarea>
+                </fieldset>
+                <input type="submit" value="Abschicken">
+                <input type="reset">
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Copyright 2023 by Leonhard Katschner</p>
+    </footer>
+
+</body>
+</html>
